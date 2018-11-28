@@ -380,9 +380,7 @@ client.on('message', message => {
 
   ** -inv | لدعوة البوت الى سيرفرك**:black_circle: 
 
-  ** -support | سيرفر الدعم**:wrench:  :envelope_with_arrow: 
-  
-  ** -contact | ارسال اقتراح او لمراسلة صاحب البوت**
+  ** -store | الشوب الخاص بالسيرفر**:wrench:  :envelope_with_arrow: 
   
 **  ======:blossom:نــتــمــنــآ لــكــم آســتــمـــتــآع :blossom:======  **`)
      message.author.sendEmbed(embed)
@@ -2832,11 +2830,11 @@ message.channel.stopTyping()
       
      
    client.on('message', message => {
-     if (message.content === "-support") {
+     if (message.content === "-store") {
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/bE54fhV**")
+  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/5Ddmz3**")
      
      
   message.channel.sendEmbed(embed);
